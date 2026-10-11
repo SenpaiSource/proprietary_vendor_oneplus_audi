@@ -822,6 +822,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/audi/proprietary/odm/etc/camera/wide_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_padding_mapxy_33x25.bin \
     vendor/oneplus/audi/proprietary/odm/etc/display/qdcm_calib_data_AA553_P_7_A0001_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AA553_P_7_A0001_dsc_cmd_mode_panel.json \
     vendor/oneplus/audi/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
+    vendor/oneplus/audi/proprietary/odm/etc/fusionlight_profile/fusionlight_Main_2_6.json:$(TARGET_COPY_OUT_ODM)/etc/fusionlight_profile/fusionlight_Main_2_6.json \
     vendor/oneplus/audi/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/audi/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/audi/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
@@ -1535,6 +1536,7 @@ PRODUCT_PACKAGES += \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libubifocus \
+    libui-stock \
     libvideoml \
     libvmfilexfer \
     sensors.qsh \
